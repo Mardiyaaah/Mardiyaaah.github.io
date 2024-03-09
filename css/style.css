@@ -670,8 +670,8 @@ footer .credit a {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: #fff;
-    width: 30rem;
+    background-color: #ffffffb2;
+    width: 23rem;
     height: 100vh;
     transition: 0.3s;
   }
