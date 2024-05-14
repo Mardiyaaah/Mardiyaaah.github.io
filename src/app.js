@@ -118,7 +118,7 @@ document.addEventListener('alpine:init', () => {
 *Data Pesanan* :
  - ${JSON.parse(obj.items).map((item) => `${item.name} (${item.quantity} x ${rupiah(item.total)}) \n`)}
  *SUB TOTAL : ${rupiah(obj.total)}*
- `Terimakasih.` `;
+ Terimakasih. `;
     }
 
 
