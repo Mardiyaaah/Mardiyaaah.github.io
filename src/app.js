@@ -1,8 +1,8 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('products', () => ({
        items: [
-        { id: 1, name: 'Combad Premium- Biru Saxony', img: '1bs.jpg', price: 45000 } 
-        { id: 2, name: 'Combad Premium- Maroon', img: '2m.jpg', price: 45000 } 
+        { id: 1, name: 'Combad Premium- Biru Saxony', img: '1bs.jpg', price: 45000 },
+        { id: 2, name: 'Combad Premium- Maroon', img: '2m.jpg', price: 45000 },
         { id: 3, name: 'Combad Premium- Hijau Botol', img: '3h.jpg', price: 45000 },
         { id: 4, name: 'Combad Premium- Putih', img: '4p.jpg', price: 45000 },
         { id: 5, name: 'Combad Premium- Hitam', img: '5i.jpg', price: 45000 },
