@@ -112,13 +112,13 @@ document.addEventListener('alpine:init', () => {
     // format pesan whatsapp
     const formatMessage = (obj) => {
         return `*Data Customer* :
-- Nama: ${obj.name}
-- Alamat: ${obj.alamat}
-- No HP: ${obj.phone}
+- Nama : ${obj.name}
+- Alamat : ${obj.alamat}
+- No HP : ${obj.phone}
 *Data Pesanan* :
-> ${JSON.parse(obj.items).map((item) => `${item.name} (${item.quantity} x ${rupiah(item.total)}) \n`)}
- Sub Total: ${rupiah(obj.total)}  
- Terimakasih. `;
+  ${JSON.parse(obj.items).map((item) => `${item.name} (${item.quantity} x ${rupiah(item.total)}) \n`)}
+ SUB TOTAL : ${rupiah(obj.total)}  
+ `Terimakasih.` `;
     }
 
 
